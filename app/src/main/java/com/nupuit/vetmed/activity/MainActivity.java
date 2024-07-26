@@ -19,6 +19,10 @@ import com.google.android.gms.ads.MobileAds;
 import com.google.android.gms.ads.initialization.AdapterStatus;
 import com.google.android.gms.ads.initialization.InitializationStatus;
 import com.google.android.gms.ads.initialization.OnInitializationCompleteListener;
+import com.google.android.ump.ConsentDebugSettings;
+import com.google.android.ump.ConsentInformation;
+import com.google.android.ump.ConsentRequestParameters;
+import com.google.android.ump.UserMessagingPlatform;
 import com.nupuit.vetmed.R;
 import com.nupuit.vetmed.admanager.AdManager;
 import com.nupuit.vetmed.fragment.HistoryFragment;
@@ -86,6 +90,39 @@ public class MainActivity extends AppCompatActivity {
 //                loadAd();
             }
         });
+
+        ConsentDebugSettings debugSettings = new ConsentDebugSettings.Builder(this)
+                .setDebugGeography(ConsentDebugSettings.DebugGeography.DEBUG_GEOGRAPHY_EEA)
+                .build();
+
+        ConsentRequestParameters params = new ConsentRequestParameters
+                .Builder()
+                .setConsentDebugSettings(debugSettings)
+                .build();
+
+        ConsentInformation consentInformation = UserMessagingPlatform.getConsentInformation(this);
+        consentInformation.requestConsentInfoUpdate(this, params,
+                () -> {
+                    if (consentInformation.isConsentFormAvailable()) {
+                        UserMessagingPlatform.loadConsentForm(
+                                this,
+                                consentForm -> {
+                                    if (consentInformation.getConsentStatus() == ConsentInformation.ConsentStatus.REQUIRED) {
+                                        consentForm.show(
+                                                this,
+                                                consentFormError -> {
+                                                    // Handle dismissal by reloading form if necessary
+                                                });
+                                    }
+                                },
+                                formError -> {
+                                    // Handle the error
+                                });
+                    }
+                },
+                consentInfoUpdateError -> {
+                    // Handle the error
+                });
 
         mAdView.setAdListener(new AdListener() {
             @Override
