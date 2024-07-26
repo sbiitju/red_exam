@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<issues format="6" by="lint 7.2.1" type="baseline" client="gradle" dependencies="false" name="AGP (7.2.1)" variant="fatal" version="7.2.1">
+
+    <issue
+        id="NotSibling"
+        message="`@+id/ad_view` is not a sibling in the same `RelativeLayout`"
+        errorLine1="        android:layout_above=&quot;@+id/ad_view&quot;"
+        errorLine2="        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/layout/activity_main.xml"
+            line="12"
+            column="9"/>
+    </issue>
+
+    <issue
+        id="NotSibling"
+        message="`@id/ad_view` is not a sibling in the same `RelativeLayout`"
+        errorLine1="        android:layout_above=&quot;@id/ad_view&quot;"
+        errorLine2="        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/layout/fragment_mockup_question.xml"
+            line="112"
+            column="9"/>
+    </issue>
+
+</issues>

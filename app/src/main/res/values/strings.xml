@@ -1,0 +1,46 @@
+<resources>
+
+    <string name="app_name" translatable="false">Veterinary Medicine Exam Prep</string>
+    <string name="app_id">ca-app-pub-8600455025005024~3481169452</string>
+    <string name="appopen_ad_unit_id">ca-app-pub-8600455025005024/9550881649</string>
+    <string name="banner_ad_unit_id">ca-app-pub-8600455025005024/6868043836</string>
+    <string name="interstitial_ad_unit_id">ca-app-pub-8600455025005024/3560188360</string>
+    <string name="rewarded_video_ad_unit_id">ca-app-pub-8600455025005024/3923885565</string>
+    <string name="pro_link">https://play.google.com/store/apps/details?id=com.nupuit.vetmedp</string>
+
+    <string name="facebook_app_id">332621722403912</string>
+
+
+
+
+
+
+
+    <string name="main_activity" translatable="false">Main Activity</string>
+    <string name="main_activity_text" translatable="false">
+        Leave and switch back to the app to see the ad.
+    </string>
+    <string name="splash_activity_image_text" translatable="false">Splash Activity Image</string>
+    <string name="splash_activity_text" translatable="false">App Open</string>
+
+    <string name="fb_login_protocol_scheme">fb727059624132181</string>
+    <string name="facebook_client_token"></string>
+
+    <string name="exam_format">MCQ.</string>
+    <string name="tips_header">In MCQ exams you have to choose the best option that answers the question. The incorrect options are called distracters. There is a skill in answering MCQs quickly and correctly. By practising MCQs you can develop this skill, giving you a better chance of passing the exam. You may wish to follow the approach outlined below, or you may prefer to adapt it.</string>
+
+    <string name="stars">* Re-read the question to ensure that you understand it and are answering the requirements \n* Eliminate any obviously wrong answers, that will help you find the correct answers. \n* Consider which of the remaining answers is most likely to be correct and select that option.</string>
+
+    <string name="after_practice">After extensive practice and revision of MCQs, you may find that you recognise a question when you sit the exam. Be aware that the detail and/or requirement may be different then that you have practised earlier. If the question seems familiar read the requirement and options carefully – do not assume that the question is identical.</string>
+    <string name="step_1">Skim read through all the MCQs and identify those appear to be the easier ones.</string>
+    <string name="step_2">Attempt each question – starting with the easier questions identified in Step 1. Read the question thoroughly. You may prefer to figure out the answer before looking at the options, or you may prefer to look at the options at the beginning. Adopt the method that best suits you.</string>
+    <string name="step_3">See the options and note if one matches your own answer. Be careful with numerical questions as the distractions are designed to match answers that incorporate common errors. Check that your calculation is correct. Have you followed the requirement exactly? Have you included all stages of the calculation?</string>
+    <string name="step_4">If you find that none of the options matches your answer.</string>
+    <string name="step_5">If you are still unsure make a note and continue to the next question.</string>
+    <string name="step_6">Revisit unanswered questions. When you come back to a question after a break you often find you are able to answer it correctly straight away. If you are still unsure just have a guess. You are not penalised for incorrect answers, so never keep any stones unturned!</string>
+    <string name="about_us">At Xoftit, we love to work with new ideas. We have formed our dynamic teams to work on brilliant ideas and we are confident that great ideas will get us to the top of the tech world. We also love to work for our global clients and help them develop their ideas through our BPO services.</string>
+    <string name="contact_info">House 657, Road 10, Mirpur DOHS,\nDhaka, Bangladesh\nEmail: info@nupuit.com\nPrivacy Policy: www.nupuit.com\nPhone: +8801757188118</string>
+    <string name="question_string_com_facebook_image_download_unknown_error">question @string/com_facebook_image_download_unknown_error</string>
+    <string name="question_image">question image</string>
+
+</resources>

@@ -1,0 +1,333 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Main Question to be asked to the examinee and this is a random text."
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="Main Question to be asked to the examinee and this is a random text."
+        android:textStyle="bold" />
+
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp">
+
+        <RadioButton
+            android:gravity="top"
+            android:paddingTop="@dimen/radioButtonTopPadding"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Option1" />
+
+        <RadioButton
+            android:gravity="top"
+            android:paddingTop="@dimen/radioButtonTopPadding"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="OptionA2" />
+
+        <RadioButton
+            android:gravity="top"
+            android:paddingTop="@dimen/radioButtonTopPadding"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="OptionA3" />
+
+        <RadioButton
+            android:gravity="top"
+            android:paddingTop="@dimen/radioButtonTopPadding"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="OptionA4" />
+
+    </RadioGroup>
+    <TextView
+        android:visibility="gone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="Correct Answer: Option3"
+        android:textColor="@color/green"
+        android:textSize="16sp"
+       />
+
+    <TextView
+        android:visibility="gone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="15dp"
+        android:text="This will be option 3 only because this is the right option."
+        android:textColor="#616161"
+        android:textSize="16sp"
+        />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="Main Question to be asked to the examinee and this is a random text."
+        android:textStyle="bold" />
+
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp">
+
+        <RadioButton
+            android:gravity="top"
+            android:paddingTop="@dimen/radioButtonTopPadding"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Option1" />
+
+        <RadioButton
+            android:gravity="top"
+            android:paddingTop="@dimen/radioButtonTopPadding"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Option2" />
+
+        <RadioButton
+            android:gravity="top"
+            android:paddingTop="@dimen/radioButtonTopPadding"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Option3" />
+
+        <RadioButton
+            android:gravity="top"
+            android:paddingTop="@dimen/radioButtonTopPadding"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Option4" />
+
+    </RadioGroup>
+
+    <TextView
+        android:visibility="gone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="Correct Answer: Option3"
+        android:textColor="@color/green"
+        android:textSize="16sp"
+        />
+
+    <TextView
+        android:visibility="gone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="15dp"
+        android:text="This will be option 3 only because this is the right option."
+        android:textColor="#616161"
+        android:textSize="16sp"
+        />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="Main Question to be asked to the examinee and this is a random text."
+        android:textStyle="bold" />
+
+
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp">
+
+        <RadioButton
+            android:gravity="top"
+            android:paddingTop="@dimen/radioButtonTopPadding"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Option1" />
+
+        <RadioButton
+            android:gravity="top"
+            android:paddingTop="@dimen/radioButtonTopPadding"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Option2" />
+
+        <RadioButton
+            android:gravity="top"
+            android:paddingTop="@dimen/radioButtonTopPadding"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Option3" />
+
+        <RadioButton
+            android:gravity="top"
+            android:paddingTop="@dimen/radioButtonTopPadding"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Option4" />
+
+    </RadioGroup>
+
+    <TextView
+        android:visibility="gone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="Correct Answer: Option3"
+        android:textColor="@color/green"
+        android:textSize="16sp"
+        />
+
+    <TextView
+        android:visibility="gone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="15dp"
+        android:text="This will be option 3 only because this is the right option."
+        android:textColor="#616161"
+        android:textSize="16sp"
+        />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="Main Question to be asked to the examinee and this is a random text."
+        android:textStyle="bold" />
+
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp">
+
+        <RadioButton
+            android:gravity="top"
+            android:paddingTop="@dimen/radioButtonTopPadding"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Option1" />
+
+        <RadioButton
+            android:gravity="top"
+            android:paddingTop="@dimen/radioButtonTopPadding"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Option2" />
+
+        <RadioButton
+            android:gravity="top"
+            android:paddingTop="@dimen/radioButtonTopPadding"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Option3" />
+
+        <RadioButton
+            android:gravity="top"
+            android:paddingTop="@dimen/radioButtonTopPadding"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Option4" />
+
+    </RadioGroup>
+
+    <TextView
+        android:visibility="gone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="Correct Answer: Option3"
+        android:textColor="@color/green"
+        android:textSize="16sp"
+        />
+
+    <TextView
+        android:visibility="gone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="15dp"
+        android:text="This will be option 3 only because this is the right option."
+        android:textColor="#616161"
+        android:textSize="16sp"
+        />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="Main Question to be asked to the examinee and this is a random text."
+        android:textStyle="bold" />
+
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp">
+
+        <RadioButton
+            android:gravity="top"
+            android:paddingTop="@dimen/radioButtonTopPadding"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Option1" />
+
+        <RadioButton
+            android:gravity="top"
+            android:paddingTop="@dimen/radioButtonTopPadding"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Option2" />
+
+        <RadioButton
+            android:gravity="top"
+            android:paddingTop="@dimen/radioButtonTopPadding"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Option3" />
+
+        <RadioButton
+            android:gravity="top"
+            android:paddingTop="@dimen/radioButtonTopPadding"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Option4" />
+
+    </RadioGroup>
+
+    <TextView
+        android:visibility="gone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="Correct Answer: Option3"
+        android:textColor="@color/green"
+        android:textSize="16sp"
+        />
+
+    <TextView
+        android:visibility="gone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="15dp"
+        android:text="This will be option 3 only because this is the right option."
+        android:textColor="#616161"
+        android:textSize="16sp"
+        />
+
+
+</LinearLayout>
